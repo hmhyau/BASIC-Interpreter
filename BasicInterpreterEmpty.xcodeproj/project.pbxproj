@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65120C7120AAD12000132B9D /* EndIfCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C5320AAD11E00132B9D /* EndIfCommand.cpp */; };
+		65120C7220AAD12000132B9D /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C5520AAD11E00132B9D /* Command.cpp */; };
+		65120C7320AAD12000132B9D /* BooleanExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C5620AAD11E00132B9D /* BooleanExpression.cpp */; };
+		65120C7420AAD12000132B9D /* IfCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C5920AAD11F00132B9D /* IfCommand.cpp */; };
+		65120C7520AAD12000132B9D /* ExpressionBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C6020AAD11F00132B9D /* ExpressionBase.cpp */; };
+		65120C7620AAD12000132B9D /* GotoCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C6120AAD11F00132B9D /* GotoCommand.cpp */; };
+		65120C7720AAD12000132B9D /* Operand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C6220AAD11F00132B9D /* Operand.cpp */; };
+		65120C7820AAD12000132B9D /* ArithmeticExpression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C6420AAD11F00132B9D /* ArithmeticExpression.cpp */; };
+		65120C7920AAD12000132B9D /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C6720AAD11F00132B9D /* Program.cpp */; };
+		65120C7A20AAD12000132B9D /* LetCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C6920AAD12000132B9D /* LetCommand.cpp */; };
+		65120C7B20AAD12000132B9D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C6A20AAD12000132B9D /* main.cpp */; };
+		65120C7C20AAD12000132B9D /* InputCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C6D20AAD12000132B9D /* InputCommand.cpp */; };
+		65120C7D20AAD12000132B9D /* PrintCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65120C6E20AAD12000132B9D /* PrintCommand.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65BE3EEB20A517E3006FBEB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65120C5320AAD11E00132B9D /* EndIfCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EndIfCommand.cpp; path = BasicInterpreter/EndIfCommand.cpp; sourceTree = "<group>"; };
+		65120C5420AAD11E00132B9D /* PrintCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrintCommand.h; path = BasicInterpreter/PrintCommand.h; sourceTree = "<group>"; };
+		65120C5520AAD11E00132B9D /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Command.cpp; path = BasicInterpreter/Command.cpp; sourceTree = "<group>"; };
+		65120C5620AAD11E00132B9D /* BooleanExpression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BooleanExpression.cpp; path = BasicInterpreter/BooleanExpression.cpp; sourceTree = "<group>"; };
+		65120C5720AAD11E00132B9D /* GotoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GotoCommand.h; path = BasicInterpreter/GotoCommand.h; sourceTree = "<group>"; };
+		65120C5820AAD11F00132B9D /* Value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Value.h; path = BasicInterpreter/Value.h; sourceTree = "<group>"; };
+		65120C5920AAD11F00132B9D /* IfCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IfCommand.cpp; path = BasicInterpreter/IfCommand.cpp; sourceTree = "<group>"; };
+		65120C5A20AAD11F00132B9D /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Command.h; path = BasicInterpreter/Command.h; sourceTree = "<group>"; };
+		65120C5B20AAD11F00132B9D /* ExpressionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExpressionBase.h; path = BasicInterpreter/ExpressionBase.h; sourceTree = "<group>"; };
+		65120C5C20AAD11F00132B9D /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Expression.h; path = BasicInterpreter/Expression.h; sourceTree = "<group>"; };
+		65120C5D20AAD11F00132B9D /* Operand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Operand.h; path = BasicInterpreter/Operand.h; sourceTree = "<group>"; };
+		65120C6020AAD11F00132B9D /* ExpressionBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExpressionBase.cpp; path = BasicInterpreter/ExpressionBase.cpp; sourceTree = "<group>"; };
+		65120C6120AAD11F00132B9D /* GotoCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GotoCommand.cpp; path = BasicInterpreter/GotoCommand.cpp; sourceTree = "<group>"; };
+		65120C6220AAD11F00132B9D /* Operand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Operand.cpp; path = BasicInterpreter/Operand.cpp; sourceTree = "<group>"; };
+		65120C6320AAD11F00132B9D /* IfCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IfCommand.h; path = BasicInterpreter/IfCommand.h; sourceTree = "<group>"; };
+		65120C6420AAD11F00132B9D /* ArithmeticExpression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArithmeticExpression.cpp; path = BasicInterpreter/ArithmeticExpression.cpp; sourceTree = "<group>"; };
+		65120C6520AAD11F00132B9D /* LetCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LetCommand.h; path = BasicInterpreter/LetCommand.h; sourceTree = "<group>"; };
+		65120C6620AAD11F00132B9D /* InputCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputCommand.h; path = BasicInterpreter/InputCommand.h; sourceTree = "<group>"; };
+		65120C6720AAD11F00132B9D /* Program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Program.cpp; path = BasicInterpreter/Program.cpp; sourceTree = "<group>"; };
+		65120C6820AAD11F00132B9D /* ArithmeticExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArithmeticExpression.h; path = BasicInterpreter/ArithmeticExpression.h; sourceTree = "<group>"; };
+		65120C6920AAD12000132B9D /* LetCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LetCommand.cpp; path = BasicInterpreter/LetCommand.cpp; sourceTree = "<group>"; };
+		65120C6A20AAD12000132B9D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = BasicInterpreter/main.cpp; sourceTree = "<group>"; };
+		65120C6B20AAD12000132B9D /* BooleanExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BooleanExpression.h; path = BasicInterpreter/BooleanExpression.h; sourceTree = "<group>"; };
+		65120C6C20AAD12000132B9D /* EndIfCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndIfCommand.h; path = BasicInterpreter/EndIfCommand.h; sourceTree = "<group>"; };
+		65120C6D20AAD12000132B9D /* InputCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InputCommand.cpp; path = BasicInterpreter/InputCommand.cpp; sourceTree = "<group>"; };
+		65120C6E20AAD12000132B9D /* PrintCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrintCommand.cpp; path = BasicInterpreter/PrintCommand.cpp; sourceTree = "<group>"; };
+		65120C6F20AAD12000132B9D /* Program.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Program.h; path = BasicInterpreter/Program.h; sourceTree = "<group>"; };
+		653B5AC120A51A7200BF55C5 /* BasicInterpreterEmpty */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BasicInterpreterEmpty; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BE3EC020A36923006FBEB6 /* ArithmeticExpression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArithmeticExpression.cpp; sourceTree = "<group>"; };
+		65BE3EC120A36923006FBEB6 /* Program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Program.cpp; sourceTree = "<group>"; };
+		65BE3EC220A36923006FBEB6 /* ExpressionBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExpressionBase.cpp; sourceTree = "<group>"; };
+		65BE3EC320A36923006FBEB6 /* GotoCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GotoCommand.cpp; sourceTree = "<group>"; };
+		65BE3EC420A36923006FBEB6 /* BooleanExpression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BooleanExpression.cpp; sourceTree = "<group>"; };
+		65BE3EC520A36923006FBEB6 /* EndIfCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EndIfCommand.cpp; sourceTree = "<group>"; };
+		65BE3EC620A36923006FBEB6 /* Command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Command.cpp; sourceTree = "<group>"; };
+		65BE3EC720A36923006FBEB6 /* LetCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LetCommand.cpp; sourceTree = "<group>"; };
+		65BE3EC820A36923006FBEB6 /* IfCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IfCommand.cpp; sourceTree = "<group>"; };
+		65BE3EC920A36923006FBEB6 /* InputCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputCommand.cpp; sourceTree = "<group>"; };
+		65BE3ECA20A36923006FBEB6 /* Operand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Operand.cpp; sourceTree = "<group>"; };
+		65BE3ECB20A36923006FBEB6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		65BE3ECC20A36923006FBEB6 /* PrintCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintCommand.cpp; sourceTree = "<group>"; };
+		65BE3ECE20A36923006FBEB6 /* ArithmeticExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArithmeticExpression.h; sourceTree = "<group>"; };
+		65BE3ECF20A36923006FBEB6 /* BooleanExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooleanExpression.h; sourceTree = "<group>"; };
+		65BE3ED020A36923006FBEB6 /* IfCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IfCommand.h; sourceTree = "<group>"; };
+		65BE3ED120A36923006FBEB6 /* LetCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetCommand.h; sourceTree = "<group>"; };
+		65BE3ED220A36923006FBEB6 /* EndIfCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndIfCommand.h; sourceTree = "<group>"; };
+		65BE3ED320A36923006FBEB6 /* Operand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operand.h; sourceTree = "<group>"; };
+		65BE3ED420A36923006FBEB6 /* Value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Value.h; sourceTree = "<group>"; };
+		65BE3ED520A36923006FBEB6 /* PrintCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintCommand.h; sourceTree = "<group>"; };
+		65BE3ED620A36923006FBEB6 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		65BE3ED720A36923006FBEB6 /* InputCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCommand.h; sourceTree = "<group>"; };
+		65BE3ED820A36923006FBEB6 /* ExpressionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionBase.h; sourceTree = "<group>"; };
+		65BE3ED920A36923006FBEB6 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		65BE3EDA20A36923006FBEB6 /* Program.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Program.h; sourceTree = "<group>"; };
+		65BE3EDB20A36923006FBEB6 /* GotoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GotoCommand.h; sourceTree = "<group>"; };
+		65BE3F0120A5193F006FBEB6 /* prog1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prog1.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65BE3EEA20A517E3006FBEB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		657133CE209B652700A0AF04 = {
+			isa = PBXGroup;
+			children = (
+				65120C6420AAD11F00132B9D /* ArithmeticExpression.cpp */,
+				65120C6820AAD11F00132B9D /* ArithmeticExpression.h */,
+				65120C5620AAD11E00132B9D /* BooleanExpression.cpp */,
+				65120C6B20AAD12000132B9D /* BooleanExpression.h */,
+				65120C5520AAD11E00132B9D /* Command.cpp */,
+				65120C5A20AAD11F00132B9D /* Command.h */,
+				65120C5320AAD11E00132B9D /* EndIfCommand.cpp */,
+				65120C6C20AAD12000132B9D /* EndIfCommand.h */,
+				65120C5C20AAD11F00132B9D /* Expression.h */,
+				65120C6020AAD11F00132B9D /* ExpressionBase.cpp */,
+				65120C5B20AAD11F00132B9D /* ExpressionBase.h */,
+				65120C6120AAD11F00132B9D /* GotoCommand.cpp */,
+				65120C5720AAD11E00132B9D /* GotoCommand.h */,
+				65120C5920AAD11F00132B9D /* IfCommand.cpp */,
+				65120C6320AAD11F00132B9D /* IfCommand.h */,
+				65120C6D20AAD12000132B9D /* InputCommand.cpp */,
+				65120C6620AAD11F00132B9D /* InputCommand.h */,
+				65120C6920AAD12000132B9D /* LetCommand.cpp */,
+				65120C6520AAD11F00132B9D /* LetCommand.h */,
+				65120C6A20AAD12000132B9D /* main.cpp */,
+				65120C6220AAD11F00132B9D /* Operand.cpp */,
+				65120C5D20AAD11F00132B9D /* Operand.h */,
+				65120C6E20AAD12000132B9D /* PrintCommand.cpp */,
+				65120C5420AAD11E00132B9D /* PrintCommand.h */,
+				65120C6720AAD11F00132B9D /* Program.cpp */,
+				65120C6F20AAD12000132B9D /* Program.h */,
+				65120C5820AAD11F00132B9D /* Value.h */,
+				65BE3ECD20A36923006FBEB6 /* headers */,
+				65BE3EBF20A36923006FBEB6 /* src */,
+				653B5AC120A51A7200BF55C5 /* BasicInterpreterEmpty */,
+			);
+			sourceTree = "<group>";
+		};
+		65BE3EBF20A36923006FBEB6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				65BE3EC020A36923006FBEB6 /* ArithmeticExpression.cpp */,
+				65BE3EC420A36923006FBEB6 /* BooleanExpression.cpp */,
+				65BE3EC620A36923006FBEB6 /* Command.cpp */,
+				65BE3EC520A36923006FBEB6 /* EndIfCommand.cpp */,
+				65BE3EC220A36923006FBEB6 /* ExpressionBase.cpp */,
+				65BE3EC320A36923006FBEB6 /* GotoCommand.cpp */,
+				65BE3EC820A36923006FBEB6 /* IfCommand.cpp */,
+				65BE3EC920A36923006FBEB6 /* InputCommand.cpp */,
+				65BE3EC720A36923006FBEB6 /* LetCommand.cpp */,
+				65BE3ECB20A36923006FBEB6 /* main.cpp */,
+				65BE3ECA20A36923006FBEB6 /* Operand.cpp */,
+				65BE3ECC20A36923006FBEB6 /* PrintCommand.cpp */,
+				65BE3F0120A5193F006FBEB6 /* prog1.txt */,
+				65BE3EC120A36923006FBEB6 /* Program.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		65BE3ECD20A36923006FBEB6 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				65BE3ECE20A36923006FBEB6 /* ArithmeticExpression.h */,
+				65BE3ECF20A36923006FBEB6 /* BooleanExpression.h */,
+				65BE3ED020A36923006FBEB6 /* IfCommand.h */,
+				65BE3ED120A36923006FBEB6 /* LetCommand.h */,
+				65BE3ED220A36923006FBEB6 /* EndIfCommand.h */,
+				65BE3ED320A36923006FBEB6 /* Operand.h */,
+				65BE3ED420A36923006FBEB6 /* Value.h */,
+				65BE3ED520A36923006FBEB6 /* PrintCommand.h */,
+				65BE3ED620A36923006FBEB6 /* Expression.h */,
+				65BE3ED720A36923006FBEB6 /* InputCommand.h */,
+				65BE3ED820A36923006FBEB6 /* ExpressionBase.h */,
+				65BE3ED920A36923006FBEB6 /* Command.h */,
+				65BE3EDA20A36923006FBEB6 /* Program.h */,
+				65BE3EDB20A36923006FBEB6 /* GotoCommand.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65BE3EEC20A517E3006FBEB6 /* BasicInterpreterEmpty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65BE3EF120A517E3006FBEB6 /* Build configuration list for PBXNativeTarget "BasicInterpreterEmpty" */;
+			buildPhases = (
+				65BE3EE920A517E3006FBEB6 /* Sources */,
+				65BE3EEA20A517E3006FBEB6 /* Frameworks */,
+				65BE3EEB20A517E3006FBEB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicInterpreterEmpty;
+			productName = BasicInterpreterEmpty;
+			productReference = 653B5AC120A51A7200BF55C5 /* BasicInterpreterEmpty */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657133CF209B652700A0AF04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Herman Yau";
+				TargetAttributes = {
+					65BE3EEC20A517E3006FBEB6 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 657133D2209B652700A0AF04 /* Build configuration list for PBXProject "BasicInterpreterEmpty" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 657133CE209B652700A0AF04;
+			productRefGroup = 657133CE209B652700A0AF04;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65BE3EEC20A517E3006FBEB6 /* BasicInterpreterEmpty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65BE3EE920A517E3006FBEB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65120C7620AAD12000132B9D /* GotoCommand.cpp in Sources */,
+				65120C7220AAD12000132B9D /* Command.cpp in Sources */,
+				65120C7320AAD12000132B9D /* BooleanExpression.cpp in Sources */,
+				65120C7D20AAD12000132B9D /* PrintCommand.cpp in Sources */,
+				65120C7A20AAD12000132B9D /* LetCommand.cpp in Sources */,
+				65120C7920AAD12000132B9D /* Program.cpp in Sources */,
+				65120C7B20AAD12000132B9D /* main.cpp in Sources */,
+				65120C7720AAD12000132B9D /* Operand.cpp in Sources */,
+				65120C7C20AAD12000132B9D /* InputCommand.cpp in Sources */,
+				65120C7520AAD12000132B9D /* ExpressionBase.cpp in Sources */,
+				65120C7820AAD12000132B9D /* ArithmeticExpression.cpp in Sources */,
+				65120C7420AAD12000132B9D /* IfCommand.cpp in Sources */,
+				65120C7120AAD12000132B9D /* EndIfCommand.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		657133DC209B652700A0AF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		657133DD209B652700A0AF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65BE3EF220A517E3006FBEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65BE3EF320A517E3006FBEB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657133D2209B652700A0AF04 /* Build configuration list for PBXProject "BasicInterpreterEmpty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657133DC209B652700A0AF04 /* Debug */,
+				657133DD209B652700A0AF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65BE3EF120A517E3006FBEB6 /* Build configuration list for PBXNativeTarget "BasicInterpreterEmpty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65BE3EF220A517E3006FBEB6 /* Debug */,
+				65BE3EF320A517E3006FBEB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657133CF209B652700A0AF04 /* Project object */;
+}
